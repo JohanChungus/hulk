@@ -1,12 +1,3 @@
-# ----------------------------------------------------------------------------------------------
-# HULK - HTTP Unbearable Load King
-#
-# this tool is a dos tool that is meant to put heavy load on HTTP servers in order to bring them
-# to their knees by exhausting the resource pool, its is meant for research purposes only
-# and any malicious usage of this tool is prohibited.
-#
-# author :  Barry Shteiman , version 1.0
-# ----------------------------------------------------------------------------------------------
 import urllib2
 import sys
 import threading
@@ -69,10 +60,10 @@ def buildblock(size):
 	return(out_str)
 
 def usage():
-	print '---------------------------------------------------'
+	print 'y'
 	print 'USAGE: python hulk.py <url>'
 	print 'you can add "safe" after url, to autoshut after dos'
-	print '---------------------------------------------------'
+	print 'g'
 
 	
 #http request
